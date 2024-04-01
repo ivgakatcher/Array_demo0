@@ -16,7 +16,6 @@ public class Main {
         printArray("массив1 содержит ", massiv1);
         printArray("массив2 содержит ", massiv2);
     }
-
     private static void printArray(String message, int[] massiv) {
         System.out.println(message + massiv.length + " чисел");
         for (int i = 0; i < massiv.length; i++) {
