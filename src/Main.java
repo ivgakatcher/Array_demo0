@@ -9,7 +9,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("введите размер еще одного массива");
         int size = scanner.nextInt();
-
         int[] massiv2 = new int[size];
 
         printArray("массив0 содержит ", massiv0);
