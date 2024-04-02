@@ -125,7 +125,7 @@ public class Main {
     }
     private static void printBackArray(String message, int[] massiv) {
         System.out.println(message + massiv.length + " чисел");
-        for (int i = massiv.length-1; i == 0; i--) {
+        for (int i = massiv.length-1; i >= 0; i--) {
             System.out.println(massiv[i]);
         }
     }
